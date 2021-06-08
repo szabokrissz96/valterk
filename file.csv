@@ -1,4 +1,4 @@
-year,state,state_po,state_fips,state_cen,state_ic,district,office,stage,runoff,special,candidate,party,writein,mode,candidatevotes,winner,totalvotes,unofficial,version,fips
+year,state,state_po,state_fips,state_cen,state_ic,kerulet,office,stage,runoff,special,candidate,party,writein,mode,candidatevotes,winner,totalvotes,unofficial,version,fips
 2018,California,CA,6,93,71,0601,US House,gen,NA,FALSE,Doug La Malfa,republican,FALSE,total,160046,TRUE,291594,FALSE,20200424,693711
 2018,California,CA,6,93,71,0602,US House,gen,NA,FALSE,Jared Huffman,democrat,FALSE,total,243081,TRUE,315657,FALSE,20200424,693712
 2018,California,CA,6,93,71,0603,US House,gen,NA,FALSE,John Garamendi,democrat,FALSE,total,134875,TRUE,232251,FALSE,20200424,693713
