@@ -3197,4 +3197,4 @@ else if (telep === 'Zsombó') {filtertelep =["all",['==', ['string', ['get', 'oe
 else if (telep === 'Zsujta') {filtertelep =["all",['==', ['string', ['get', 'oevk_name']], 'Borsod-Abaúj-Zemplén megye 5. számú egyéni választókerület']];map.setPaintProperty('valterk2', 'fill-color', '#000000');map.setLayoutProperty('valterk3', 'visibility', 'none');}
 else if (telep === 'Zsurk') {filtertelep =["all",['==', ['string', ['get', 'oevk_name']], 'Szabolcs-Szatmár-Bereg megye 4. számú egyéni választókerület']];map.setPaintProperty('valterk2', 'fill-color', '#000000');map.setLayoutProperty('valterk3', 'visibility', 'none');}
 else if (telep === 'Zubogy') {filtertelep =["all",['==', ['string', ['get', 'oevk_name']], 'Borsod-Abaúj-Zemplén megye 3. számú egyéni választókerület']];map.setPaintProperty('valterk2', 'fill-color', '#000000');map.setLayoutProperty('valterk3', 'visibility', 'none');}
-else {console.log('error');}map.setFilter('valterk2', ['all',filtertelep, filterpart]);});
+else {console.log('error');}map.setFilter('valterk2', ['all',filtertelep]);});
