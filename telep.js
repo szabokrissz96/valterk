@@ -1,4 +1,4 @@
-document.getElementById('prop2').addEventListener('change', function(e) {var telep = e.target.value;if (telep === '') {filtertelep = ['!=', ['string', ['get', 'oevk_name']], null];map.setPaintProperty('valterk2', 'fill-color', ['match',['feature-state', 'osszeg'],'0','#ebebeb','1','#d5d5d5','2','#c0c0c0','3','#ababab','4','#979797','5','#838383','6','#6f6f6f','7','#5d5d5d','8','#4a4a4a','9','#393939','#ccc',]);map.setFilter('valterk2',null);map.setFilter('szavazohelyek-3m31ij',null);map.setLayoutProperty('valterk3', 'visibility', 'visible');map.setLayoutProperty('valterk3', 'visibility', 'none');map.setLayoutProperty('szekhelyek-dkosmv', 'visibility', 'none');map.setFilter('szekhelyek-dkosmv',null);map.setLayoutProperty('szekhelyekujuj-0izoff', 'visibility', 'none');map.setFilter('szekhelyekujuj-0izoff',null);map.boxZoom.disable();
+document.getElementById('prop2').addEventListener('change', function(e) {var telep = e.target.value;if (telep === '') {filtertelep = ['!=', ['string', ['get', 'oevk_name']], null];map.setPaintProperty('valterk2', 'fill-color', ['match',['feature-state', 'osszeg'],'0','#ebebeb','1','#d5d5d5','2','#c0c0c0','3','#ababab','4','#979797','5','#838383','6','#6f6f6f','7','#5d5d5d','8','#4a4a4a','9','#393939','#ccc',]);map.setFilter('valterk2',null);map.setFilter('szavazohelyekuj-4mfy4k',null);map.setLayoutProperty('valterk3', 'visibility', 'visible');map.setLayoutProperty('valterk3', 'visibility', 'none');map.setLayoutProperty('szekhelyek-dkosmv', 'visibility', 'none');map.setFilter('szekhelyek-dkosmv',null);map.setLayoutProperty('szekhelyekujuj-0izoff', 'visibility', 'none');map.setFilter('szekhelyekujuj-0izoff',null);map.boxZoom.disable();
 map.scrollZoom.disable();
 map.dragPan.disable();
 map.dragRotate.disable();
@@ -3223,7 +3223,7 @@ else if (telep === 'Zsombó') {filtertelep =["all",['==', ['string', ['get', 'oe
 else if (telep === 'Zsujta') {filtertelep =["all",['==', ['string', ['get', 'oevk_name']], 'Borsod-Abaúj-Zemplén megye 5. számú egyéni választókerület']];map.setPaintProperty('valterk2', 'fill-color', '#000000');map.setLayoutProperty('valterk3', 'visibility', 'none');}
 else if (telep === 'Zsurk') {filtertelep =["all",['==', ['string', ['get', 'oevk_name']], 'Szabolcs-Szatmár-Bereg megye 4. számú egyéni választókerület']];map.setPaintProperty('valterk2', 'fill-color', '#000000');map.setLayoutProperty('valterk3', 'visibility', 'none');}
 else if (telep === 'Zubogy') {filtertelep =["all",['==', ['string', ['get', 'oevk_name']], 'Borsod-Abaúj-Zemplén megye 3. számú egyéni választókerület']];map.setPaintProperty('valterk2', 'fill-color', '#000000');map.setLayoutProperty('valterk3', 'visibility', 'none');}
-else {console.log('error');}map.setFilter('valterk2', ['all',filtertelep]);map.setFilter('szekhelyek-dkosmv', ['all',filtertelep]);map.setLayoutProperty('szekhelyek-dkosmv', 'visibility', 'visible');map.setFilter('szekhelyekujuj-0izoff', ['all',filtertelep]);map.setFilter('szavazohelyek-3m31ij', ['all',filtertelep]);map.setLayoutProperty('szekhelyekujuj-0izoff', 'visibility', 'visible');map.setLayoutProperty('szavazohelyek-3m31ij', 'visibility', 'visible');
+else {console.log('error');}map.setFilter('valterk2', ['all',filtertelep]);map.setFilter('szekhelyek-dkosmv', ['all',filtertelep]);map.setLayoutProperty('szekhelyek-dkosmv', 'visibility', 'visible');map.setFilter('szekhelyekujuj-0izoff', ['all',filtertelep]);map.setFilter('szavazohelyekuj-4mfy4k', ['all',filtertelep]);map.setLayoutProperty('szekhelyekujuj-0izoff', 'visibility', 'visible');map.setLayoutProperty('szavazohelyekuj-4mfy4k', 'visibility', 'visible');
 map.boxZoom.enable();
 map.scrollZoom.enable();
 map.dragPan.enable();
@@ -3231,3 +3231,6 @@ map.dragRotate.enable();
 map.keyboard.enable();
 map.doubleClickZoom.enable();
 map.touchZoomRotate.enable();});
+
+
+
