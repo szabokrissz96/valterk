@@ -1,8 +1,8 @@
 var momentumfilter =['all',['match',['get', 'oevk_name'],[],true,false]]
 var lmpfilter =['all',['match',['get', 'oevk_name'],[],true,false]]
-var dkfilter =['all',['match',['get', 'oevk_name'],[],true,false]]
-var mszpfilter =['all',['match',['get', 'oevk_name'],[],true,false]]
-var parbeszedfilter =['all',['match',['get', 'oevk_name'],[],true,false]]
+var dkfilter =['all',['match',['get', 'oevk_name'],['Borsod-Abaúj-Zemplén megye 7. számú egyéni választókerület','Győr-Moson-Sopron megye 1. számú egyéni választókerület','Nógrád megye 1. számú egyéni választókerület',],true,false]]
+var mszpfilter =['all',['match',['get', 'oevk_name'],['Fejér megye 1. számú egyéni választókerület',],true,false]]
+var parbeszedfilter =['all',['match',['get', 'oevk_name'],['Pest megye 5. számú egyéni választókerület',],true,false]]
 var jobbikfilter =['all',['match',['get', 'oevk_name'],[],true,false]]
 var uvnpfilter =['all',['match',['get', 'oevk_name'],[],true,false]]
 $('.dkpart').on('click', function() {{
